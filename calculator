@@ -21,7 +21,7 @@ int calculator(int num1, int num2, int method) {
 // function main
 int main() {
 	int num1, num2, method;
-	printf("Enter the method to calculate\n1 - Sum\n2 - Divides\n3 - Multiplication\n4 - Subtraction\n5 - Remainder\n5");
+	printf("Enter the method to calculate\n1 - Sum\n2 - Divides\n3 - Multiplication\n4 - Subtraction\n5 - Remainder\n");
 	scanf("%d", &method);
 	
 	printf("Enter the first number: ");
