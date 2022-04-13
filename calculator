@@ -10,7 +10,7 @@ int calculator(int num1, int num2, int method) {
 	} else if (method == 4) {
 		return num1 - num2; // method that subtraction two numbers
 	} else if (method == 5) {
-        return num1 % num2; //method that find remainder
+               return num1 % num2; //method that find remainder
     } else {
 		printf("Enter a valid method");
 	}
